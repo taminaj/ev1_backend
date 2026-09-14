@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}Evaluación 1{% endblock %}</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="">Vista 1 - App 1</a></li>
+                <li><a href="">Vista 2 - App 1</a></li>
+                <li><a href="">Vista 1 - App 2</a></li>
+                <li><a href="">Vista 2 - App 2</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Evaluación 1 - Backend</h1>
+    {% block content %}
+    {% endblock %}
+    <footer>
+        <p>&copy; 2026 Evaluación 1</p>
+    </footer>
+</body>
+</html>
